@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>gradient</title>
+    <style type="text/css">
+        body {
+            background-color: purple;
+        }
+        p {
+            color: firebrick;
+            font-size: 1in;
+            background: linear-gradient(blue, yellow, pink);
+        }
+        div {
+            width: 300px;
+            height: 300px;
+            font-size: 50px;
+            color: limegreen;
+            text-align: center;
+            margin: 20px;
+            float: left;
+        }
+    </style>
+</head>
+<body>
+    <p>Створення градієнта</p>
+    <div style=" background: linear-gradient(green, yellow, orange);"> div </div>
+    <div style=" background: linear-gradient(to left, green, yellow, orange);"> </div>
+    <div style=" background: linear-gradient(90deg, green, yellow, orange);"> </div>
+    <div style=" background: linear-gradient(45deg, green, yellow, orange);"> </div>
+    <div style=" background: linear-gradient(225deg, green, yellow, orange);"> </div>
+    <div style=" background: linear-gradient(green 33%, blue 0% 66%, orange 66% 100%);"> </div>
+    <div style=" background: linear-gradient(blue 50%, yellow 50%); width: 450px"> </div>
+    <div style=" background: linear-gradient(red 25%, darkblue 25% 50%, yellow 50% 75%, green 75% 100%); width: 450px"> </div>
+    <div style=" background: linear-gradient(225deg, red 25%, darkblue 25% 50%, yellow 50% 75%, green 75% 100%); width: 450px"> </div>
+    <div style=" background: radial-gradient(yellow, blue);"> radial gradient </div>
+    <div style=" background: radial-gradient(circle at 180px 180px, yellow, blue); border-radius: 50%"> </div>
+    <div style=" background: radial-gradient(circle at 100px 100px, yellow, blue); border-radius: 50%"> </div>
+    <div style=" background: radial-gradient(circle at 225px 100px, yellow, blue); border-radius: 50%"> </div>
+    <div style=" background: radial-gradient(circle at 100px 225px, yellow, blue); border-radius: 50%"> </div>
+    <div style=" background: radial-gradient(yellow 30%, blue); border-radius: 20% 30% 40% 50%"> </div>
+    <div style=" background: radial-gradient(yellow 30%, blue);"> </div>
+    <div style="background: radial-gradient(yellow 15%, blue, orange, red); border-radius: 20% 20% 20% 20% "> </div>
+    <div style=" background: radial-gradient(yellow 30%, blue); border-radius: 50%"> </div>
+    <div style=" background: radial-gradient(yellow 40%, blue 40%); border-radius: 50%"> </div>
+    <div style=" background: conic-gradient(red 25%, darkblue 25% 50%, yellow 50% 75%, green 75% 100%)"> conic </div>
+    <div style=" background: conic-gradient(at 70% 45%, red, darkblue, yellow, green)">  </div>
+    <div style=" background: conic-gradient(red, blue);">  </div>
+    <div style=" background: conic-gradient(at 0% 30%, red 10%, yellow 30%, #1e90ff 50%);">  </div>
+    <div style=" background: repeating-linear-gradient(yellow 20px, orange 40px);"> </div>
+    <div style=" background: repeating-radial-gradient(yellow 30px, orange 60px); border-radius: 50%"> </div>
+    <div style=" background: repeating-radial-gradient(yellow 30px, orange 45px); border-radius: 50%"> </div>
+    <div style=" background: repeating-radial-gradient(circle at 180px 180px, green 30px, pink 60px); border-radius: 50%"> </div>
+    <div style=" background: repeating-radial-gradient(circle at 180px 180px, red 30px, black 60px); border-radius: 50%"> </div>
+    <div style=" background: repeating-radial-gradient(circle at 180px 180px, red 30px, black 60px, yellow 90px); border-radius: 50%"> </div>
+    <div style=" background: repeating-radial-gradient(circle at 100px 100px, green, green 30px, pink 30px, pink 60px); border-radius: 50%"> </div>
+    <div style="background: repeating-linear-gradient(190deg, rgba(255, 0, 0, 0.5) 40px, rgba(255, 153, 0, 0.5) 80px, rgba(255, 255, 0, 0.5) 120px, rgba(0, 255, 0, 0.5) 160px, rgba(0, 0, 255, 0.5) 200px, rgba(75, 0, 130, 0.5) 240px, rgba(238, 130, 238, 0.5) 280px, rgba(255, 0, 0, 0.5) 300px), repeating-linear-gradient(-190deg, rgba(255, 0, 0, 0.5) 30px, rgba(255, 153, 0, 0.5) 60px, rgba(255, 255, 0, 0.5) 90px, rgba(0, 255, 0, 0.5) 120px, rgba(0, 0, 255, 0.5) 150px, rgba(75, 0, 130, 0.5) 180px, rgba(238, 130, 238, 0.5) 210px, rgba(255, 0, 0, 0.5) 230px), repeating-linear-gradient(23deg, red 50px, orange 100px, yellow 150px, green 200px, blue 250px, indigo 300px, violet 350px, red 370px); border-radius: 50% "></div>
+    <div style=" background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%), linear-gradient(127deg, rgba(0,255,0,0.8), rgba(0,255,0,0) 70.71%), linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%); border-radius: 50%"> </div>
+</body>
+</html>
